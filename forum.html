@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <tityle>Forms</tityle><link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+        
+        <style>
+            *{
+                font-Family: Montserrat:
+                width: 14px;
+            }
+            .container {
+                width:400px;
+                margin:50px auto 50px auto;
+            }
+        label 
+         margin-bottom: 4px;
+         { display: block;}
+        input {
+            width: 100%;
+        }
+        .textInput {
+            padding: 4px 8px 4px;
+            width: 100;
+            margin-bottom: 12px;
+            outline: none;
+        }
+
+.textImput:Focus {
+    border-color: blueviolet;
+}
+        button{
+           width: 100px;
+           background-color: chartreuse;
+           color:cornsilk;
+           font-size: ;
+        } 
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+        <form action=""method="POST">
+            <label for="firstName">First Name</label>
+            <input id="firstName"
+            class=input 
+            name="firstName" 
+            type="text" 
+            placeholder="First Name" />
+        
+            <label for="lastName">First Name</label>
+        <input id="lastName" name="lastName" type="text" placeholder="lastName" />
+    
+        <label for="email"> Email</label>
+        <input id="email" name="email" type="email" placeholder="email" >
+
+        <label for="password">Password</label>
+        <input id="password" 
+        class=input
+        name="password" 
+        type="password" 
+        placeholder="password" />
+
+        <label for="age">Age</label>
+        <input id="age"
+        class=input 
+        name="age" 
+        type="number" 
+        placeholder=:age
+        min="0"
+        max="100"/>
+
+        <label for="avatar">Avatar</label>
+        <input 
+        class=input
+        id="avatar"
+        type="file" 
+        name="avatar" 
+        placeholder="avatar">
+        <div>
+     <label> <input name="language" type=checkbox value="englesh" /> Englesh</label>
+     <label> <input name="language" type="checkbox" value="german" />German</label>
+        <label> <input name="gender" type="radio" value="femal" /> Femal</label>
+        <label> <input name="gender" type="radio" value="male" />Male</label>
+    </div>
+     <label for="country">
+         <select classa="input" id="country" name="country">
+             <option value="">Choose a contry</option>
+             <option value="romania" >Romania</option>
+             <option value="uk" selected>United Kindom</option> 
+             <option value="usa">United States</option>
+         </select>
+
+
+     </label>
+
+    <label for="phone"> Email</label>
+    <input id="phone" name="phone" type="tel" placeholder="+409820780">
+
+<textarea class="texInput"
+name="message"
+id="messsage"
+placeholder="message"
+rowse="10"
+></textarea>     
+     <button>Save</button>
+    </form>
+    </div>
+
+
+    </body>
+</html>
